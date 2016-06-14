@@ -50,12 +50,12 @@
     }
     
 #### 6. Subscribe to push notifications
-    PushNotificationRegister pushNotificationRegister =  new PushNotificationRegister(requestListener);
-    pushNotificationRegistrar.registerPushNotification(Context context, String userId, String accessToken, String deviceId);
+    BotPushNotification botPushNotification =  new BotPushNotification(requestListener);
+    botPushNotification.registerPushNotification(Context context, String userId, String accessToken, String deviceId);
     
 #### 7. Unsubscribe to push notifications
-    PushNotificationRegister pushNotificationRegister =  new PushNotificationRegister(requestListener);
-    pushNotificationRegister.unsubscribePushNotification(Context context, String accessToken, String deviceId);
+    BotPushNotification botPushNotification =  new BotPushNotification(requestListener);
+    botPushNotification.unsubscribePushNotification(Context context, String accessToken, String deviceId);
 
 #### 8. Anonymous user login
     String clientId = "YOUR_SDK_CLIENTID";
