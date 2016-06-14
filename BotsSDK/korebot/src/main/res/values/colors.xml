@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgBlueSignup">#3F51B5</color>
+    <color name="bgLightBlue">#9fa8da</color>
+
+    <color name="mentionsAndHashTagColor">#6CC24A</color>
+
+    <!-- Bubble Update(Sprint7) -->
+    <color name="left_bubble_selected">#D3D3D3</color>
+    <color name="left_bubble_unselected">#F4F4F4</color>
+    <color name="right_bubble_selected">#0268de</color>
+    <color name="right_bubble_unselected">#0076FF</color>
+    <color name="bot_left_bubble_selected">#CCCCCC</color>
+    <color name="bot_left_bubble_unselected">#CCCCCC</color>
+    <color name="bot_right_bubble_selected">#0268de</color>
+    <color name="bot_right_bubble_unselected">#0076FF</color>
+    <color name="left_bubble_text_color">#444444</color>
+    <color name="right_bubble_text_color">#FFFFFF</color>
+    <color name="right_footer_divider">#5bafd6</color>
+    <color name="right_lastsend_footer_divider">#A3DEFB</color>
+    <color name="left_footer_divider">#A4A4A4</color>
+    <color name="policy_bubble_color">#EBEBEB</color>
+    <color name="policy_bubble_color_pressed">#D3D3D3</color>
+    <color name="policy_bubble_color_debug">#0000FF</color>
+    <color name="policy_header_overlay_color">#D9FFFFFF</color>
+    <color name="policy_icon_color_right_unselected">#DDF3FE</color>
+    <color name="policy_icon_color_right_selected">#DCEEF6</color>
+    <color name="policy_icon_color_left_unselected">#FCFCFC</color>
+    <color name="policy_icon_color_left_selected">#F8F8F8</color>
+    <color name="bubble_sender_name">#9d9d9d</color>
+    <color name="bubble_expiry_color">#eea800</color>
+    <color name="bubble_left_selected_url">#66bb6a</color>
+    <color name="bubble_left_unselected_url">#a5d6a7</color>
+    <color name="bubble_right_selected_url">#c8ec69</color>
+    <color name="bubble_right_unselected_url">#a5d6a7</color>
+
+    <!-- Bubble (Hackathon changes) -->
+    <color name="readReceiptGreen">#6cc249</color>
+    <color name="readReceiptYellow">#fad05e</color>
+    <color name="readReceiptGrey">#c0cfd4</color>
+    <color name="readReceiptLightGrey">#EBEBEB</color>
+    <color name="readReceiptBorder">#FFFFFF</color>
+    <color name="sendfailed">#EE3340</color>
+    <color name="bubbleFileName">#474747</color>
+    <color name="bubbleFileBackground">#f8f8f8</color>
+    <color name="colorUnselected">#F4F4F4</color>
+    <color name="colorSelected">#E0E0E0</color>
+
+    <!-- Bubble Update(Sprint9A) -->
+    <color name="footer_color_dark_grey">#A4A4A4</color>
+    <color name="bubble_dark_text_color">#444444</color>
+    <color name="bubble_light_text_color">#FFFFFF</color>
+    <color name="bubble_link_text_color">#0076FF</color>
+    <color name="default_link_dark_text_color">#0000EE</color>
+    <color name="default_link_light_text_color">#5C5CFF</color>
+
+    <!-- profile status color -->
+    <color name="statusOnline">#2ADE75</color>
+    <color name="statusOffline">#BFCED3</color>
+
+    <!-- Timestamp -->
+    <color name="timestamp_row1">#A4B1B5</color>
+    <color name="timestamp_row2">#C3D2D6</color>
+
+    <!-- Offline mode check -->
+    <color name="offline_mode_check_bg_color">#CC96A5A9</color>
+    <color name="offline_mode_check_text_color">#FFFFFF</color>
+
+</resources>
