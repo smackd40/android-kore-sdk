@@ -2,6 +2,7 @@ package kore.botssdk.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.View;
@@ -9,8 +10,11 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import java.text.ParseException;
+
 import kore.botssdk.R;
 import kore.botssdk.application.AppControl;
+import kore.botssdk.utils.DateUtils;
 import kore.botssdk.view.viewUtils.LayoutUtils;
 import kore.botssdk.view.viewUtils.MeasureUtils;
 
@@ -22,6 +26,7 @@ public class HeaderLayout extends ViewGroup {
 
     private TextView headerTextView;
     private float dp1;
+    String LOG_TAG = HeaderLayout.class.getSimpleName();
 
     int gravity = 0;
 
@@ -85,7 +90,16 @@ public class HeaderLayout extends ViewGroup {
     }
 
     private void populateTimeStamp(String timeStamp) {
-        headerTextView.setText(timeStamp);
+        if (timeStamp != null && !timeStamp.isEmpty()) {
+            try {
+                headerTextView.setText(DateUtils.getTimeStamp(timeStamp, true));
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        } else {
+            headerTextView.setText("");
+            Log.e(LOG_TAG, "timeStamp is either NULL or EMPTY");
+        }
     }
 
     @Override
